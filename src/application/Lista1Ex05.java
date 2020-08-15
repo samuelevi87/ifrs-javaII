@@ -10,7 +10,6 @@ public class Lista1Ex05 {
 		 * Desenvolva um programa que leia quatro valores numéricos inteiros e mostre os
 		 * valores que são divisíveis por 2 e 3.
 		 */
-		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Digite quatro valores numéricos inteiros: ");
