@@ -27,17 +27,17 @@ public class Lista1Ex10 {
 		System.out.print("\nExame Final: ");
 		double notaExFinal = sc.nextDouble();
 
-		double mediaponderada = ((notaLab * 2) + (notaAvSemestral * 3) + (notaExFinal * 5)) / 10;
+		double mediaPonderada = ((notaLab * 2) + (notaAvSemestral * 3) + (notaExFinal * 5)) / 10;
 
-		System.out.println("Media ponderada: " + mediaponderada);
+		System.out.println("Media ponderada: " + mediaPonderada);
 
-		if (mediaponderada >= 8.0 && mediaponderada <= 10.0) {
+		if (mediaPonderada >= 8.0 && mediaPonderada <= 10.0) {
 			System.out.println("Conceito A");
-		} else if (mediaponderada >= 7.0 && mediaponderada < 8.0) {
+		} else if (mediaPonderada >= 7.0 && mediaPonderada < 8.0) {
 			System.out.println("Conceito B");
-		} else if (mediaponderada >= 6.0 && mediaponderada < 7.0) {
+		} else if (mediaPonderada >= 6.0 && mediaPonderada < 7.0) {
 			System.out.println("Conceito C");
-		} else if (mediaponderada >= 5.0 && mediaponderada < 6.0) {
+		} else if (mediaPonderada >= 5.0 && mediaPonderada < 6.0) {
 			System.out.println("Conceito D");
 		} else {
 			System.out.println("Conceito E");
